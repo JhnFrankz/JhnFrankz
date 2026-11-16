@@ -1,6 +1,6 @@
 # Hola, soy Jhan Espinoza 👋
 
-**Full-Stack & Backend Software Developer** enfocado en aplicaciones web modernas, **Clean Architecture**, rendimiento en cliente/servidor y herramientas CLI en Linux.
+**Full-Stack Software Engineer** enfocado en aplicaciones web de alto rendimiento, **Clean Architecture** y herramientas CLI multiplataforma.
 
 ---
 
@@ -9,26 +9,27 @@
 #### Web & Sistemas en Producción
 * **GeoCateo Perú** *(Producción — [geo-cateo.vercel.app](https://geo-cateo.vercel.app))*
   Plataforma GIS catastral y radar de expedientes mineros integrada con **INGEMMET (GEOCATMIN / SIDEMCAT)** y **El Peruano**.
-  * *Stack & Ingeniería:* **Astro 7, React 19, TypeScript, Leaflet**, Web Worker GIS (grillas de 100 Ha y cruces espaciales), Clean Architecture verificada por **606 tests** en Vitest, Biome y TLS fail-closed en Vercel (Node 24).
+  * *Ingeniería:* **Astro 7, React 19, TypeScript, Leaflet**, Web Worker GIS para grillas de 100 Ha y cruces espaciales, Clean Architecture validada con **606 tests** (Vitest), Biome y despliegue híbrido en Vercel (Node 24).
+* **School Docs** *(Producción — [school-docs-edu.vercel.app](https://school-docs-edu.vercel.app))*
+  Sistema desacoplado para generación automatizada de documentos escolares (Word y Excel) a partir de plantillas.
+  * *Ingeniería:* Backend REST en **Python (FastAPI + Pydantic)** con generación en memoria y frontend SPA en **React + TypeScript + Vite**.
 * **Veterinaria Nasca** *(Producción — [veterinarianasca.vercel.app](https://veterinarianasca.vercel.app))*
   Sitio web comercial para clínica veterinaria y pet store construido con **Astro 7, React, Tailwind CSS v4 y Nanostores**.
-* **School Docs** *(Producción — [school-docs-edu.vercel.app](https://school-docs-edu.vercel.app))*
-  Plataforma web en **TypeScript** desplegada en Vercel para gestión y consulta documental educativa.
 
 #### Open Source & Herramientas CLI
-* [**upp**](https://github.com/JhnFrankz/upp) *(Go)*
-  Herramienta CLI para automatizar actualizaciones y mantenimiento de entornos de desarrollo multi-entorno en terminal.
+* [**upp**](https://github.com/JhnFrankz/upp) *(Go — Linux, macOS, Windows)*
+  Actualizador CLI multiplataforma en **Go** para mantener al día runtimes y herramientas de desarrollo desde un único binario, con verificación **SHA-256**, políticas de seguridad y soporte para automatización (`--dry-run`, `--ci`).
 * [**dotfiles**](https://github.com/JhnFrankz/dotfiles) *(Shell / Linux)*
-  Configuración modular y scripts de automatización para entorno de desarrollo en **Linux** (Fish, Neovim, Git).
+  Configuración modular y scripts idempotentes con backup automático para entorno de desarrollo en **Linux** (Fish, `fnm`, `pnpm`, Alacritty).
 
 ---
 
 ### 🛠️ Stack & Tecnologías
 
-* **Lenguajes:** TypeScript, JavaScript, Go, Java, PHP, Bash
-* **Frontend:** React, Astro, Tailwind CSS, Leaflet
-* **Backend & Cloud:** Node.js, Spring Boot, Laravel, Vercel (SSR / Serverless)
-* **Calidad & Entorno:** Vitest, Biome, Clean Architecture, Docker, Git, Neovim, Linux
+* **Lenguajes:** TypeScript, JavaScript, Go, Python, Java, PHP, Bash
+* **Frontend:** React, Astro, Vite, Tailwind CSS, Leaflet
+* **Backend & APIs:** Node.js, FastAPI (Pydantic), Spring Boot, Laravel
+* **Calidad & Infraestructura:** Vitest, Pytest, Biome, Clean Architecture, Docker, Vercel, Git, Linux
 
 ---
 
